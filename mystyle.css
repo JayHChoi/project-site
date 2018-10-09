@@ -8,37 +8,38 @@ body {
 	opacity: 0.8;
 }
 
-#home-section {
-	background: url(../img/home.jpg);
+#about-section {
+	background: url(../images/me.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 40rem;
 }
 
-#home-section .dark-overlay {
+
+#about-section .dark-overlay {
 	position: absolute;
 	width: 100%;
 	min-height: 40rem;
 	background: rgba(0,0,0,0.7);
 }
 
-#home-section .home-inner {
+#about-section .about-inner {
 	padding-top: 5rem;
 }
 
-#home-section .card-form {
+#about-section .card-form {
 	opacity: 0.8;
 }
 
-#home-section .fas, #create-section .fas {
+#about-section .fas, #posts-section .fas {
 	padding: 5px;
 	color: #008ed6;
 	background: #fff;
 	border-radius: 5px;
 }
 
-#explore-section .fas, #share-section .fas {
+#portfolio-section .fas, #share-section .fas {
 	background: #333;
 	color: #fff;
 	padding: 5px;
